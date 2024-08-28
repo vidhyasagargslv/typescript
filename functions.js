@@ -63,3 +63,5 @@
 // console.log(square(7));
 // var value = "jjdn";
 // console.log(typeof (value));
+ let values=[1,"shb",2,"shd",3,"shd"];
+    console.log(values);

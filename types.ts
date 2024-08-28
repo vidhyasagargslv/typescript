@@ -70,6 +70,11 @@ let myObject: object = { name: "sagar", age: 25 };
 console.log(myObject);
 console.log(typeof (myObject));
 
+//* union- this is used to ensure that the value is either the type we mentioned
+let age:(string | number);
+age = 25;
+age="85"
+console.log(age);
 
 //? Type Assertions- this is used to ensure that the value is of a specific type
 
