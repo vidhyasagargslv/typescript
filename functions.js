@@ -1,14 +1,10 @@
 // let user: string = "skhhd";
 // user = "jdv";
-
 // console.log(user);  //output: jdv 
-
 // function islogged(userid: string, password: string) {
 //   console.log(userid, password);
 // }
-
 // islogged("dance", "555");
-
 // function isEven(val: number) {
 //   if (val % 2 == 0) {
 //     return true;
@@ -16,9 +12,7 @@
 //     return false;
 //   }
 // }
-
 // isEven(6);
-
 // type ages = {
 //   one: number;
 //   two: number;
@@ -27,12 +21,10 @@
 //   five: number;
 //   divisser: number;
 // };
-
 // function calculateage(age: ages) {
 //   let total = (age.one + age.two + age.three + age.four + age.five) / age.divisser;
 //   return total;
 // }
-
 // const cal = calculateage({
 //   one: 5,
 //   two: 6,
@@ -41,48 +33,33 @@
 //   five: 9,
 //   divisser:8
 // });
-
 // console.log(cal);
-
 // const shd: number = 10;
 // console.log(shd);
-
 // let number: number = 18;
-
 // let eleigible = number <= 18 ? "you are eligible" : "you are not eligible";
-
 // console.log(eleigible);
-
 // const carddate: string="dhbchd";
 //  console.log(carddate.toUpperCase());
-
 // //  arrays in typescript format
 // //todo this are the two ways to create a  new array in typescript format
 // const heros:string[] = []
 // const maina:Array<number> = []
 // heros.push("kxbcbx")
-
 // enum seats{
 //   first="true",
 //   second=7,
 //   third,
 //   fourth
 // }
-
 // let allotment = seats.third
-
-function greet(name:string):string{
-  return `hello ${name}`;
-}
-
-console.log(greet("sagar"));
-
-
-function square(num:number):number{
-  return num * num
-}
-console.log(square(7));
-
-let value="jjdn";
-console.log(typeof(value));
-
+// function greet(name) {
+//     return "hello ".concat(name);
+// }
+// console.log(greet("sagar"));
+// function square(num) {
+//     return num * num;
+// }
+// console.log(square(7));
+// var value = "jjdn";
+// console.log(typeof (value));
