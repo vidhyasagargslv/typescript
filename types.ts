@@ -23,7 +23,7 @@ console.log(person);
 
 //* Enum- this is used to ensure that the value is an enum
 enum Color {
-  Red,
+  Red=3,
   Green,
   Blue,
 }
@@ -77,4 +77,10 @@ age="85"
 console.log(age);
 
 //? Type Assertions- this is used to ensure that the value is of a specific type
+let myAge: any = 25;
+let myAgeNumber: number = myAge as number;
+console.log(typeof myAgeNumber); // Prints: number
+
+let myAgeString: string = myAge as string;
+console.log(typeof myAgeString); // Prints: string
 

@@ -65,3 +65,8 @@
 // console.log(typeof (value));
  let values=[1,"shb",2,"shd",3,"shd"];
     console.log(values);
+
+let aa="dkjnc";
+let bb=565;
+bb+=aa
+console.log(bb);

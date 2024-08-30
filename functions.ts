@@ -71,11 +71,11 @@
 
 // let allotment = seats.third
 
-function greet(name:string):string{
-  return `hello ${name}`;
-}
+// function greet(name:string):string{
+//   return `hello ${name}`;
+// }
 
-console.log(greet("sagar"));
+// console.log(greet("sagar"));
 
 
 function square(num:number):number{
