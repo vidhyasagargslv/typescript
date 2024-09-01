@@ -71,12 +71,26 @@ interface foo{
     foo2:number;
 }
 
+let jogig:Partial<foo> ={
+    
+}
+
 interface bar{
     bar1:string;
     bar2:number;
 }
 
 interface foobar extends foo,bar{}
+
+//? Or we can combine two interface with type
+type foobar2 = foo & bar
+let foobar2:foobar2={
+    foo1: "riya2",
+    foo2: 1000,
+    bar1: "rajesh",
+    bar2: 10000
+}
+console.log(foobar2.foo1);
 
 let foobar :foobar={
     foo1: "riya",
