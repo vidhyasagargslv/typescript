@@ -39,3 +39,10 @@ console.log(sum(arr));
 //total using reduce method
 let total:number = arr.reduce((a,b)=>a+b);
 console.log(total);
+
+
+function reverse(arr:number[]):number[] {
+    return arr.slice().reverse();
+}
+arr=[1,2,3,4,5];
+console.log(reverse(arr));
